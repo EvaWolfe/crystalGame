@@ -4,6 +4,7 @@ body {
 	color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-left: 150px;
 
 }
 
@@ -29,7 +30,7 @@ h1 {
 }
 
 .rupees {
-	
+
 	margin: 5px;
 	
 }
