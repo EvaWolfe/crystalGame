@@ -1,0 +1,35 @@
+body {
+	background-image: url(../images/zeldaBackground.jpg);
+	font-family: 'Cherry Swash', cursive;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.mainDiv {
+
+	width: 750px;
+	border-style: outset;
+	padding: 25px;
+	background: #9b7;
+	text-align: center;
+	content: center;
+	font-size: 25px;
+
+}
+
+h1 {
+	
+	background: #9b7;
+	font-size: 75px;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+.rupees {
+	
+	margin: 5px;
+	
+}

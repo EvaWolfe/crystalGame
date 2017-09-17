@@ -13,3 +13,24 @@
 // The user's score also needs to be reset. //
 // The number of games a player has won or lost needs to also be displayed and this information needs to be kept even when the game restarts. //
 
+$(document).ready(function() {
+	console.log("Ready!");
+});
+
+// <script type="text/javascript">
+// 	var targetNumber = Math.floor(Math.random() * 100) + 19;
+// 	var blue = document.getElementById("blueCrystal");
+// 	var green = document.getElementById("greenCrystal");
+// 	var purple = document.getElementById("purpleCrystal");
+// 	var yellow = document.getElementById("yellowCrystal");
+
+// 	function crystalClick(event) {
+// 		alert("clicked");
+// 		console.log(event);
+
+// 	}
+
+
+// 	blue.onclick = crystalClick;
+
+// </script>
