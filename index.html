@@ -66,12 +66,41 @@
 
 		</div>
 	</div>
-<script>
+	<script>
 
-$(document).ready(function() {
-	gameStart();
-});
-</script>
+		$(document).ready(function() {
+			gameStart();
+		});
+
+		$("#blueRupee").click(function(){
+
+			playerScore += blueRupee;
+			$("#playerScore").text(playerScore);
+			
+		});
+
+		$("#greenRupee").click(function(){
+
+			playerScore += greenRupee;
+			$("#playerScore").text(playerScore);
+
+		});
+
+		$("#purpleRupee").click(function(){
+
+			playerScore += purpleRupee;
+			$("#playerScore").text(playerScore);
+
+		});
+
+		$("#yellowRupee").click(function(){
+
+			playerScore += yellowRupee;
+			$("#playerScore").text(playerScore);
+
+		});
+
+	</script>
 </body>
 
 </html>
